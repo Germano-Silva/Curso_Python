@@ -16,5 +16,8 @@ texto = 'Luiz'  # iterável
 #     except StopIteration:
 #         break
 
+# O código `for letra in texto: print(letra)` está iterando sobre cada caractere da variável string
+# `texto` e imprimindo cada caracter um por um. Isso é possível porque strings em Python são
+# objetos iteráveis, o que significa que você pode fazer um loop sobre eles caractere por caractere usando um loop `for`.
 for letra in texto:
     print(letra)

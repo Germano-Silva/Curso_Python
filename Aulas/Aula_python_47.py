@@ -20,6 +20,8 @@ palavra_secreta = 'perfume'
 letras_acertadas = ''
 numero_tentativas = 0
 
+# Este loop `while True` é o loop principal do jogo onde o usuário pode inserir uma letra para adivinhar o segredo
+# palavra. Aqui está um detalhamento do que cada parte do loop está fazendo:
 while True:
     letra_digitada = input('Digite uma letra: ')
     numero_tentativas += 1
@@ -40,6 +42,9 @@ while True:
 
     print('Palavra formada:', palavra_formada)
 
+# Este bloco de código está verificando se a `palavra_formada` (palavra formada pela palavra correta do usuário
+# palpites até agora) é igual a `palavra_secreta` (a palavra secreta). Se eles forem iguais, isso significa
+# que o usuário adivinhou a palavra inteira com sucesso.
     if palavra_formada == palavra_secreta:
         os.system('clear')
         print('VOCÊ GANHOU!! PARABÉNS!')

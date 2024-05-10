@@ -58,5 +58,8 @@ while True:
 # Este bloco de código pergunta ao usuário se ele deseja sair da calculadora.
     sair = input('Quer sair? [s]im: ').lower().startswith('s')
 
+# O trecho de código `if sair is True: break` está verificando se a variável `sair` é igual a `True`. Se
+# a entrada do usuário indica que ele deseja sair da calculadora (digitando 's' ou 'sim' quando
+# solicitado), a variável `sair` será definida como `True`.
     if sair is True:
         break

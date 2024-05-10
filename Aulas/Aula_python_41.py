@@ -1,4 +1,5 @@
 """ while/else """
+# Este trecho de código Python demonstra o uso de um loop `while` com um bloco `else`.
 string = 'Valor qualquer'
 
 i = 0

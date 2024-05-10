@@ -9,6 +9,9 @@
 
 # print(repeticoes)
 # print('Aquele laço acima pode ter repetições infinitas')
+# Este código está iterando sobre cada caractere da string `texto`, que é 'Python'. Para cada
+# caractere, é adicionar um asterisco (*) antes do caractere e anexá-lo ao `novo_texto`
+# variável.
 texto = 'Python'
 
 novo_texto = ''

@@ -4,6 +4,8 @@ i = 0
 qtd_apareceu_mais_vezes = 0
 letra_apareceu_mais_vezes = ''
 
+# Este bloco de código encontra a letra que aparece mais vezes na string fornecida
+# `frase`.
 while i < len(frase):
     letra_atual = frase[i]
 

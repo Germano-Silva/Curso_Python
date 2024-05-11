@@ -19,7 +19,7 @@ while True:
     except:
         numeros_validos = None
 
-# Este bloco de código está verificando se a variável `numeros_validos` é `None`. Se for `Nenhum`, será
+# O código está verificando se a variável `numeros_validos` é `None`. Se for `Nenhum`,
 # significa que um ou ambos os números inseridos pelo usuário são inválidos (não podem ser convertidos para
 # Números de ponto flutuante). Neste caso, imprime uma mensagem informando ao usuário que os números estão
 # inválido e então usa a instrução `continue` para pular o resto da iteração atual do
@@ -55,7 +55,6 @@ while True:
     else:
         print('Nunca deveria chegar aqui.')
 
-# Este bloco de código pergunta ao usuário se ele deseja sair da calculadora.
     sair = input('Quer sair? [s]im: ').lower().startswith('s')
 
 # O trecho de código `if sair is True: break` está verificando se a variável `sair` é igual a `True`. Se
